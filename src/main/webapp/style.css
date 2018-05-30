@@ -1,0 +1,27 @@
+body {
+	font-family: courier;
+	font-size: 12px;
+}
+
+pre {
+	margin: 0;
+	padding: 0;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+	
+}
+
+input {
+	border: 0;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	width: 90%;
+}
+
+#bottom {
+	height: 10px;
+}

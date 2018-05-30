@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Java Shell</title>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<form onsubmit="return sendCommand();" id="current-line" method="POST">
+		jash$ <input type="text" name="command" id="command"/>
+	</form>
+	<pre id="command-output"></pre>
+	<div id="bottom"></div>
+</body>
+</html>
